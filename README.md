@@ -8,16 +8,18 @@ You must already have a ScaleIO Cluster Installed.
 
 ### Getting Started with this repository
 ```
-git lone https://github.com/wallnerryan/flocker-scaleio-singlenode
+git clone https://github.com/wallnerryan/flocker-scaleio-singlenode
 cd flocker-scaleio-singlenode
 ```
-# You can substitute your dev branch, or other release source code.
+### You can substitute your dev branch, or other release source code.
 (you can alternatively skip this step, and install flocker from packages, if not developing. Just go through these initial step to install from packaging after vagrant up/ vagrant ssh. https://docs.clusterhq.com/en/1.3.1/install/install-client.html#other-linux-distributions)
 ```
 git clone http://github.com/clusterhq/flocker
 cd flocker/
+```
 
-# Get the vagrant env ready.
+### Get the vagrant env ready.
+```
 cp ../flocker-Vagrantfile .
 cp ../pkgs/numactl-libs-2.0.9-4.el7.x86_64.rpm .
 cp ../pkgs/libaio-0.3.109-12.el7.x86_64.rpm .
