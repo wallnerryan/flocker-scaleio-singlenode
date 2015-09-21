@@ -20,7 +20,7 @@ cd flocker/
 
 ### Get the vagrant env ready.
 ```
-cp ../flocker-Vagrantfile .
+cp ../flocker-Vagrantfile ./Vagrantfile
 cp ../pkgs/numactl-libs-2.0.9-4.el7.x86_64.rpm .
 cp ../pkgs/libaio-0.3.109-12.el7.x86_64.rpm .
 cp ../pkgs/EMC-ScaleIO-sdc-1.31-243.0.el7.x86_64.rpm .
