@@ -1,7 +1,7 @@
 Quick Start for connecting Flocker to EMC ScaleIO
 -------------------------------------------------
 
-## Pre-requisits 
+## Prerequisites 
 
 You must already have a ScaleIO Cluster Installed.
 - See: https://github.com/wallnerryan/scaleio-vagrant-7
